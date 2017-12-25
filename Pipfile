@@ -1,0 +1,22 @@
+[[source]]
+
+verify_ssl = true
+name = "pypi"
+url = "https://pypi.python.org/simple"
+
+
+[packages]
+
+protobuf = "*"
+pillow = "*"
+scipy = "*"
+numpy = "*"
+jupyter = "*"
+"d30d90f" = {file = "https://github.com/chrippa/backports.shutil_get_terminal_size/archive/159e269450dbf37c3a837f6ea7e628d59acbb96a.zip"}
+
+
+[dev-packages]
+
+
+
+[requires]
